@@ -19,15 +19,11 @@ class SYJTabBarController: UITabBarController {
     
     private func tabBarDarkModeAdapater() -> Void {
         
-        var isDarkMode: Bool = false
-        if #available(iOS 12.0, *) {
-            isDarkMode = traitCollection.userInterfaceStyle == .dark
-        }
         guard  let items = tabBar.items , items.count > 0 else {
             return
         }
         
-        let tabBarItemSelectedColor: UIColor = UIColor.adapterDarkModeColor(dynamicColorName: "common_scheme_color", color: UIColor.yellow, darkMode: isDarkMode)
+        let tabBarItemSelectedColor: UIColor = UIColor.adapterDarkModeColor(dynamicColorName: "common_scheme_color", color: UIColor.yellow)
         tabBar.tintColor = tabBarItemSelectedColor
     }
 

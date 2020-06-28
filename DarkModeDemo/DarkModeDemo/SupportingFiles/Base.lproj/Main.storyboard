@@ -63,7 +63,7 @@
         <scene sceneID="ayJ-L8-nwS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AtT-26-v17" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home_selected" id="VvP-wQ-7G4"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="home_normal" selectedImage="home_selected" id="VvP-wQ-7G4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WhG-6w-2XM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -82,7 +82,7 @@
         <scene sceneID="mUl-L9-gjq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rLr-Ea-1PL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="设置" image="setting" selectedImage="setting_selected" id="xV4-8i-lLu"/>
+                    <tabBarItem key="tabBarItem" title="设置" image="setting_normal" selectedImage="setting_selected" id="xV4-8i-lLu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KW9-Y5-GD5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -99,9 +99,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="home" width="24" height="24"/>
+        <image name="home_normal" width="24" height="24"/>
         <image name="home_selected" width="24" height="24"/>
-        <image name="setting" width="24" height="24"/>
-        <image name="setting_selected" width="24" height="24"/>
+        <image name="setting_normal" width="24" height="24"/>
+        <image name="setting_selected" width="32" height="32"/>
     </resources>
 </document>

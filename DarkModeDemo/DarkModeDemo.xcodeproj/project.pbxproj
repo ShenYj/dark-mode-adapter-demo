@@ -10,7 +10,6 @@
 		F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E624A87297000D21F6 /* Assets.xcassets */; };
 		F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */; };
 		F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E924A87297000D21F6 /* Main.storyboard */; };
-		F76BC2EF24A87297000D21F6 /* tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2EB24A87297000D21F6 /* tabbar.xcassets */; };
 		F76BC2F324A872B2000D21F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F124A872B1000D21F6 /* AppDelegate.swift */; };
 		F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */; };
 		F76BC2F824A872E2000D21F6 /* SYJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */; };
@@ -23,7 +22,6 @@
 		F76BC2E624A87297000D21F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76BC2E824A87297000D21F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F76BC2EA24A87297000D21F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F76BC2EB24A87297000D21F6 /* tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = tabbar.xcassets; sourceTree = "<group>"; };
 		F76BC2F124A872B1000D21F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYJTabBarController.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				F76BC2E624A87297000D21F6 /* Assets.xcassets */,
 				F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */,
 				F76BC2E924A87297000D21F6 /* Main.storyboard */,
-				F76BC2EB24A87297000D21F6 /* tabbar.xcassets */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -175,7 +172,6 @@
 				F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */,
 				F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */,
 				F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */,
-				F76BC2EF24A87297000D21F6 /* tabbar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
