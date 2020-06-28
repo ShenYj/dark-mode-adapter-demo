@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E624A87297000D21F6 /* Assets.xcassets */; };
+		F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */; };
+		F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E924A87297000D21F6 /* Main.storyboard */; };
+		F76BC2EF24A87297000D21F6 /* tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2EB24A87297000D21F6 /* tabbar.xcassets */; };
+		F76BC2F324A872B2000D21F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F124A872B1000D21F6 /* AppDelegate.swift */; };
+		F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */; };
+		F76BC2F824A872E2000D21F6 /* SYJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */; };
+		F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F76BC2C824A8352B000D21F6 /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76BC2D924A8352B000D21F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76BC2E624A87297000D21F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76BC2E824A87297000D21F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76BC2EA24A87297000D21F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76BC2EB24A87297000D21F6 /* tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = tabbar.xcassets; sourceTree = "<group>"; };
+		F76BC2F124A872B1000D21F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYJTabBarController.swift; sourceTree = "<group>"; };
+		F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+DarkMode.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76BC2C524A8352B000D21F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76BC2BF24A8352A000D21F6 = {
+			isa = PBXGroup;
+			children = (
+				F76BC2CA24A8352B000D21F6 /* DarkModeDemo */,
+				F76BC2C924A8352B000D21F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76BC2C924A8352B000D21F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2C824A8352B000D21F6 /* DarkModeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76BC2CA24A8352B000D21F6 /* DarkModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2F524A872E2000D21F6 /* DarkModeAdapterDemo */,
+				F76BC2F024A872B1000D21F6 /* Entrance */,
+				F76BC2E524A87297000D21F6 /* SupportingFiles */,
+			);
+			path = DarkModeDemo;
+			sourceTree = "<group>";
+		};
+		F76BC2E524A87297000D21F6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2D924A8352B000D21F6 /* Info.plist */,
+				F76BC2E624A87297000D21F6 /* Assets.xcassets */,
+				F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */,
+				F76BC2E924A87297000D21F6 /* Main.storyboard */,
+				F76BC2EB24A87297000D21F6 /* tabbar.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F76BC2F024A872B1000D21F6 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2F124A872B1000D21F6 /* AppDelegate.swift */,
+				F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		F76BC2F524A872E2000D21F6 /* DarkModeAdapterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2F924A872E8000D21F6 /* Extension */,
+				F76BC2F624A872E2000D21F6 /* Main */,
+			);
+			path = DarkModeAdapterDemo;
+			sourceTree = "<group>";
+		};
+		F76BC2F624A872E2000D21F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F76BC2F924A872E8000D21F6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76BC2C724A8352B000D21F6 /* DarkModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BC2DC24A8352B000D21F6 /* Build configuration list for PBXNativeTarget "DarkModeDemo" */;
+			buildPhases = (
+				F76BC2C424A8352B000D21F6 /* Sources */,
+				F76BC2C524A8352B000D21F6 /* Frameworks */,
+				F76BC2C624A8352B000D21F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkModeDemo;
+			productName = DarkModeDemo;
+			productReference = F76BC2C824A8352B000D21F6 /* DarkModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76BC2C024A8352A000D21F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SYJ;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ShenYj;
+				TargetAttributes = {
+					F76BC2C724A8352B000D21F6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F76BC2C324A8352A000D21F6 /* Build configuration list for PBXProject "DarkModeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76BC2BF24A8352A000D21F6;
+			productRefGroup = F76BC2C924A8352B000D21F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76BC2C724A8352B000D21F6 /* DarkModeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76BC2C624A8352B000D21F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */,
+				F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */,
+				F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */,
+				F76BC2EF24A87297000D21F6 /* tabbar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76BC2C424A8352B000D21F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */,
+				F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */,
+				F76BC2F324A872B2000D21F6 /* AppDelegate.swift in Sources */,
+				F76BC2F824A872E2000D21F6 /* SYJTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76BC2E824A87297000D21F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F76BC2E924A87297000D21F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76BC2EA24A87297000D21F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76BC2DA24A8352B000D21F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F76BC2DB24A8352B000D21F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76BC2DD24A8352B000D21F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = "$(PRODUCT_NAME)/SupportingFiles//Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ShenYj.DarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F76BC2DE24A8352B000D21F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = "$(PRODUCT_NAME)/SupportingFiles//Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ShenYj.DarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76BC2C324A8352A000D21F6 /* Build configuration list for PBXProject "DarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BC2DA24A8352B000D21F6 /* Debug */,
+				F76BC2DB24A8352B000D21F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BC2DC24A8352B000D21F6 /* Build configuration list for PBXNativeTarget "DarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BC2DD24A8352B000D21F6 /* Debug */,
+				F76BC2DE24A8352B000D21F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76BC2C024A8352A000D21F6 /* Project object */;
+}
