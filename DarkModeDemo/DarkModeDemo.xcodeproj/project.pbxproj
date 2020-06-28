@@ -14,6 +14,9 @@
 		F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */; };
 		F76BC2F824A872E2000D21F6 /* SYJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */; };
 		F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */; };
+		F76BC2FD24A878E8000D21F6 /* SYJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2FC24A878E8000D21F6 /* SYJBaseViewController.swift */; };
+		F76BC30124A8792E000D21F6 /* SYJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC30024A8792E000D21F6 /* SYJHomeViewController.swift */; };
+		F76BC30324A8793A000D21F6 /* SYJSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC30224A8793A000D21F6 /* SYJSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYJTabBarController.swift; sourceTree = "<group>"; };
 		F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+DarkMode.swift"; sourceTree = "<group>"; };
+		F76BC2FC24A878E8000D21F6 /* SYJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYJBaseViewController.swift; sourceTree = "<group>"; };
+		F76BC30024A8792E000D21F6 /* SYJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYJHomeViewController.swift; sourceTree = "<group>"; };
+		F76BC30224A8793A000D21F6 /* SYJSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYJSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		F76BC2F524A872E2000D21F6 /* DarkModeAdapterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F76BC2FF24A87913000D21F6 /* Setting */,
+				F76BC2FE24A8790C000D21F6 /* Home */,
 				F76BC2F924A872E8000D21F6 /* Extension */,
 				F76BC2F624A872E2000D21F6 /* Main */,
 			);
@@ -98,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				F76BC2F724A872E2000D21F6 /* SYJTabBarController.swift */,
+				F76BC2FC24A878E8000D21F6 /* SYJBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -108,6 +117,22 @@
 				F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F76BC2FE24A8790C000D21F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC30024A8792E000D21F6 /* SYJHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F76BC2FF24A87913000D21F6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F76BC30224A8793A000D21F6 /* SYJSettingViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */,
+				F76BC2FD24A878E8000D21F6 /* SYJBaseViewController.swift in Sources */,
+				F76BC30324A8793A000D21F6 /* SYJSettingViewController.swift in Sources */,
 				F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */,
 				F76BC2F324A872B2000D21F6 /* AppDelegate.swift in Sources */,
+				F76BC30124A8792E000D21F6 /* SYJHomeViewController.swift in Sources */,
 				F76BC2F824A872E2000D21F6 /* SYJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

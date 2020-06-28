@@ -22,8 +22,7 @@ class SYJTabBarController: UITabBarController {
         guard  let items = tabBar.items , items.count > 0 else {
             return
         }
-        
-        let tabBarItemSelectedColor: UIColor = UIColor.adapterDarkModeColor(dynamicColorName: "common_scheme_color", color: UIColor.yellow)
+        let tabBarItemSelectedColor: UIColor = UIColor.adapterDarkModeColor(dynamicColorName: "common_scheme_color", color: UIColor.lightModeSchemeColor())
         tabBar.tintColor = tabBarItemSelectedColor
     }
 
