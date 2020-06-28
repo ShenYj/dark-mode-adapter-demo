@@ -16,9 +16,7 @@ class SYJTabBarController: UITabBarController {
         tabBarDarkModeAdapater()
     }
     
-    
     private func tabBarDarkModeAdapater() -> Void {
-        
         guard  let items = tabBar.items , items.count > 0 else {
             return
         }
@@ -28,10 +26,11 @@ class SYJTabBarController: UITabBarController {
 
 }
 
-extension SYJTabBarController {
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        super.traitCollectionDidChange(previousTraitCollection)
-        print(#function)
-        tabBarDarkModeAdapater()
-    }
-}
+//extension SYJTabBarController {
+//    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+//        super.traitCollectionDidChange(previousTraitCollection)
+//        let fileName: String = #file
+//        print( URL(fileURLWithPath: fileName).lastPathComponent + #function )
+//        tabBarDarkModeAdapater()
+//    }
+//}
