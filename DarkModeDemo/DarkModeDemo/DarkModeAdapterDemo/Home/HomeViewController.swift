@@ -1,5 +1,5 @@
 //
-//  SYJSettingViewController.swift
+//  SYJHomeViewController.swift
 //  DarkModeDemo
 //
 //  Created by ShenYj on 2020/6/28.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class SYJSettingViewController: SYJBaseViewController {
+class HomeViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
 }
