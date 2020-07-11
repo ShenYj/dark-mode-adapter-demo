@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F741E46A24AEC55D00560B1B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741E46924AEC55D00560B1B /* NavigationController.swift */; };
 		F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E624A87297000D21F6 /* Assets.xcassets */; };
 		F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */; };
 		F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E924A87297000D21F6 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F741E46924AEC55D00560B1B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		F76BC2C824A8352B000D21F6 /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76BC2D924A8352B000D21F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F76BC2E624A87297000D21F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				F76BC2F724A872E2000D21F6 /* TabBarController.swift */,
+				F741E46924AEC55D00560B1B /* NavigationController.swift */,
 				F76BC2FC24A878E8000D21F6 /* BaseViewController.swift */,
 			);
 			path = Main;
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */,
+				F741E46A24AEC55D00560B1B /* NavigationController.swift in Sources */,
 				F76BC2FD24A878E8000D21F6 /* BaseViewController.swift in Sources */,
 				F76BC30324A8793A000D21F6 /* SettingViewController.swift in Sources */,
 				F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */,
@@ -360,7 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KS5QTFAS57;
 				INFOPLIST_FILE = "$(PRODUCT_NAME)/SupportingFiles//Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KS5QTFAS57;
 				INFOPLIST_FILE = "$(PRODUCT_NAME)/SupportingFiles//Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xdq-Mg-LRf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="P0k-HR-abN"/>
@@ -27,7 +29,7 @@
             <objects>
                 <viewController id="F3V-5V-5nh" customClass="SettingViewController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5t7-Dh-qNw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="c25-GX-jgH"/>
@@ -60,7 +62,7 @@
         <!--首页-->
         <scene sceneID="ayJ-L8-nwS">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AtT-26-v17" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AtT-26-v17" customClass="NavigationController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="home_normal" selectedImage="home_selected" id="VvP-wQ-7G4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WhG-6w-2XM">
@@ -79,7 +81,7 @@
         <!--设置-->
         <scene sceneID="mUl-L9-gjq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rLr-Ea-1PL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rLr-Ea-1PL" customClass="NavigationController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="设置" image="setting_normal" selectedImage="setting_selected" id="xV4-8i-lLu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KW9-Y5-GD5">
@@ -100,6 +102,6 @@
         <image name="home_normal" width="24" height="24"/>
         <image name="home_selected" width="24" height="24"/>
         <image name="setting_normal" width="24" height="24"/>
-        <image name="setting_selected" width="32" height="32"/>
+        <image name="setting_selected" width="24" height="24"/>
     </resources>
 </document>
