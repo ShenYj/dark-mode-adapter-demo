@@ -17,6 +17,7 @@ class HomeViewController: BaseViewController {
             view.backgroundColor = UIColor.systemFill
         } else {
             // Fallback on earlier versions
+            view.backgroundColor = UIColor.white
         }
     }
     
