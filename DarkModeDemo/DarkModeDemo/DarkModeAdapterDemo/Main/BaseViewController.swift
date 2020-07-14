@@ -24,6 +24,6 @@ class BaseViewController: UIViewController {
 
 extension BaseViewController {
     @objc func setupUI() -> Void {
-        
+        print("Base setupUI Func")
     }
 }
