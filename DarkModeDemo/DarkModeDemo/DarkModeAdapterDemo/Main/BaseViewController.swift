@@ -13,6 +13,11 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        if #available(iOS 13.0, *) {
+            view.backgroundColor = UIColor.systemFill
+        } else {
+            view.backgroundColor = UIColor.white
+        }
     }
 
 }
