@@ -18,6 +18,12 @@ class BaseViewController: UIViewController {
         } else {
             view.backgroundColor = UIColor.white
         }
+        setupUI()
     }
+}
 
+extension BaseViewController {
+    func setupUI() -> Void {
+        
+    }
 }
