@@ -17,3 +17,9 @@ class HomeViewController: BaseViewController {
     }
     
 }
+
+extension HomeViewController {
+    override func setupUI() {
+        title = "首页"
+    }
+}

@@ -16,3 +16,9 @@ class SettingViewController: BaseViewController {
     }
 
 }
+
+extension SettingViewController {
+    override func setupUI() {
+        title = "设置"
+    }
+}

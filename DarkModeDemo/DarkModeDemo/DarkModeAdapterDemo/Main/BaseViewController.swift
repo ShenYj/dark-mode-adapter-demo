@@ -23,7 +23,7 @@ class BaseViewController: UIViewController {
 }
 
 extension BaseViewController {
-    func setupUI() -> Void {
+    @objc func setupUI() -> Void {
         
     }
 }
