@@ -15,10 +15,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="160" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="J5b-sZ-Wb9" userLabel="collectionLessions">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LessionTableViewCellReusedID" id="ua9-JI-heV" customClass="LessionIntroductionCell" customModule="DarkModeDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ua9-JI-heV" id="rs6-4I-0lx">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="wf6-2R-9jJ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vZ4-Wu-cZ4"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P0k-HR-abN" firstAttribute="trailing" secondItem="J5b-sZ-Wb9" secondAttribute="trailing" id="3NZ-WL-6oH"/>
+                            <constraint firstItem="P0k-HR-abN" firstAttribute="bottom" secondItem="J5b-sZ-Wb9" secondAttribute="bottom" id="WYi-cm-O0M"/>
+                            <constraint firstItem="J5b-sZ-Wb9" firstAttribute="top" secondItem="P0k-HR-abN" secondAttribute="top" id="rLI-q5-O1C"/>
+                            <constraint firstItem="J5b-sZ-Wb9" firstAttribute="leading" secondItem="P0k-HR-abN" secondAttribute="leading" id="suE-HX-IC6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="P0k-HR-abN"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Y3-G8-d7b"/>
+                    <connections>
+                        <outlet property="collectionLessionTableView" destination="J5b-sZ-Wb9" id="Smn-Tn-THd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -31,14 +60,77 @@
                     <view key="view" contentMode="scaleToFill" id="5t7-Dh-qNw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-US-bhS">
+                                <rect key="frame" x="20" y="155" width="374" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a0L-Xh-clZ"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="20倍速"/>
+                                    <segment title="12倍速"/>
+                                    <segment title="6倍速"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="setPlaySpeed:" destination="F3V-5V-5nh" eventType="valueChanged" id="u2Q-bb-DKP"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置倍速:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyC-W1-zd5">
+                                <rect key="frame" x="20" y="118" width="374" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Lk0-I0-nJ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置AccessToken:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNa-1K-kBl">
+                                <rect key="frame" x="20" y="205" width="374" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="kDp-0Z-Pfm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="..." translatesAutoresizingMaskIntoConstraints="NO" id="IC2-tH-YH6">
+                                <rect key="frame" x="20" y="255" width="374" height="120"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="DLs-NL-Q51"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="c25-GX-jgH" firstAttribute="trailing" secondItem="IC2-tH-YH6" secondAttribute="trailing" constant="20" id="2n6-ST-8K8"/>
+                            <constraint firstItem="BNa-1K-kBl" firstAttribute="top" secondItem="IBs-US-bhS" secondAttribute="bottom" constant="20" id="4pd-c5-yO3"/>
+                            <constraint firstItem="IBs-US-bhS" firstAttribute="leading" secondItem="c25-GX-jgH" secondAttribute="leading" constant="20" id="4zs-0R-VZe"/>
+                            <constraint firstItem="BNa-1K-kBl" firstAttribute="leading" secondItem="c25-GX-jgH" secondAttribute="leading" constant="20" id="71M-hj-8hZ"/>
+                            <constraint firstItem="IC2-tH-YH6" firstAttribute="top" secondItem="BNa-1K-kBl" secondAttribute="bottom" constant="28" id="Rq0-Rx-muK"/>
+                            <constraint firstItem="c25-GX-jgH" firstAttribute="trailing" secondItem="BNa-1K-kBl" secondAttribute="trailing" constant="20" id="SWZ-FA-dHl"/>
+                            <constraint firstItem="c25-GX-jgH" firstAttribute="trailing" secondItem="KyC-W1-zd5" secondAttribute="trailing" constant="20" id="XV8-C2-sYe"/>
+                            <constraint firstItem="IBs-US-bhS" firstAttribute="top" secondItem="KyC-W1-zd5" secondAttribute="bottom" constant="15" id="c1z-pd-j3Z"/>
+                            <constraint firstItem="c25-GX-jgH" firstAttribute="trailing" secondItem="IBs-US-bhS" secondAttribute="trailing" constant="20" id="dUP-Mw-aIp"/>
+                            <constraint firstItem="KyC-W1-zd5" firstAttribute="leading" secondItem="c25-GX-jgH" secondAttribute="leading" constant="20" id="kaT-VW-Vbd"/>
+                            <constraint firstItem="IC2-tH-YH6" firstAttribute="leading" secondItem="c25-GX-jgH" secondAttribute="leading" constant="20" id="spc-gY-Dxb"/>
+                            <constraint firstItem="KyC-W1-zd5" firstAttribute="top" secondItem="c25-GX-jgH" secondAttribute="top" constant="30" id="tnF-yZ-dCs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="c25-GX-jgH"/>
                     </view>
                     <navigationItem key="navigationItem" id="GMQ-BQ-Gzc"/>
+                    <connections>
+                        <outlet property="inputTextView" destination="IC2-tH-YH6" id="aQ7-ox-ztZ"/>
+                        <outlet property="setPlaySpeedSegment" destination="IBs-US-bhS" id="0Z5-WH-c7G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZFK-Np-02L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1942" y="477"/>
+            <point key="canvasLocation" x="1940.5797101449277" y="476.78571428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="72K-IM-01M">
@@ -59,11 +151,11 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--首页-->
+        <!--我的收藏-->
         <scene sceneID="ayJ-L8-nwS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AtT-26-v17" customClass="NavigationController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="home_normal" selectedImage="home_selected" id="VvP-wQ-7G4"/>
+                    <tabBarItem key="tabBarItem" title="我的收藏" image="home_normal" selectedImage="home_selected" id="VvP-wQ-7G4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WhG-6w-2XM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

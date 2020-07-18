@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B09BE4109D8D33572C28841C /* Pods_DarkModeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985E5108BA7005C908096BF /* Pods_DarkModeDemo.framework */; };
 		F741E46A24AEC55D00560B1B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741E46924AEC55D00560B1B /* NavigationController.swift */; };
 		F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E624A87297000D21F6 /* Assets.xcassets */; };
 		F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BC2E724A87297000D21F6 /* LaunchScreen.storyboard */; };
@@ -15,12 +16,21 @@
 		F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */; };
 		F76BC2F824A872E2000D21F6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2F724A872E2000D21F6 /* TabBarController.swift */; };
 		F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */; };
-		F76BC2FD24A878E8000D21F6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC2FC24A878E8000D21F6 /* BaseViewController.swift */; };
 		F76BC30124A8792E000D21F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC30024A8792E000D21F6 /* HomeViewController.swift */; };
 		F76BC30324A8793A000D21F6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BC30224A8793A000D21F6 /* SettingViewController.swift */; };
+		F7AC355E24BDEEAD00D9F4C2 /* LessionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC355C24BDE58C00D9F4C2 /* LessionsController.swift */; };
+		F7AC356024BDF23400D9F4C2 /* Lessions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AC355F24BDF23400D9F4C2 /* Lessions.storyboard */; };
+		F7AC356224BE960700D9F4C2 /* LessionIntroductionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC356124BE960700D9F4C2 /* LessionIntroductionCell.swift */; };
+		F7AC356424BE967100D9F4C2 /* LessionIntroductionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7AC356324BE967100D9F4C2 /* LessionIntroductionCell.xib */; };
+		F7AC356624BEB24C00D9F4C2 /* LessionsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC356524BEB24C00D9F4C2 /* LessionsListCell.swift */; };
+		F7AC356B24BF4EBA00D9F4C2 /* AudioTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC356A24BF4EBA00D9F4C2 /* AudioTool.swift */; };
+		F7AC356D24BFD47300D9F4C2 /* LessionsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7AC356C24BFD47300D9F4C2 /* LessionsListCell.xib */; };
+		F7AC358B24BFE71200D9F4C2 /* InfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC358A24BFE71200D9F4C2 /* InfoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5985E5108BA7005C908096BF /* Pods_DarkModeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkModeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A08043DE06A077FDBEC9AF0 /* Pods-DarkModeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkModeDemo.release.xcconfig"; path = "Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F741E46924AEC55D00560B1B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		F76BC2C824A8352B000D21F6 /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76BC2D924A8352B000D21F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,9 +41,17 @@
 		F76BC2F224A872B1000D21F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F76BC2F724A872E2000D21F6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+DarkMode.swift"; sourceTree = "<group>"; };
-		F76BC2FC24A878E8000D21F6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F76BC30024A8792E000D21F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F76BC30224A8793A000D21F6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F7AC355C24BDE58C00D9F4C2 /* LessionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessionsController.swift; sourceTree = "<group>"; };
+		F7AC355F24BDF23400D9F4C2 /* Lessions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lessions.storyboard; sourceTree = "<group>"; };
+		F7AC356124BE960700D9F4C2 /* LessionIntroductionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessionIntroductionCell.swift; sourceTree = "<group>"; };
+		F7AC356324BE967100D9F4C2 /* LessionIntroductionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessionIntroductionCell.xib; sourceTree = "<group>"; };
+		F7AC356524BEB24C00D9F4C2 /* LessionsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessionsListCell.swift; sourceTree = "<group>"; };
+		F7AC356A24BF4EBA00D9F4C2 /* AudioTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTool.swift; sourceTree = "<group>"; };
+		F7AC356C24BFD47300D9F4C2 /* LessionsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessionsListCell.xib; sourceTree = "<group>"; };
+		F7AC358A24BFE71200D9F4C2 /* InfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoManager.swift; sourceTree = "<group>"; };
+		FD12026CFACC4482BFCC0890 /* Pods-DarkModeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkModeDemo.debug.xcconfig"; path = "Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09BE4109D8D33572C28841C /* Pods_DarkModeDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0FBEE836D621BD5095F748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5985E5108BA7005C908096BF /* Pods_DarkModeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3FEEB9BAFFC607B99E5F039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD12026CFACC4482BFCC0890 /* Pods-DarkModeDemo.debug.xcconfig */,
+				8A08043DE06A077FDBEC9AF0 /* Pods-DarkModeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F76BC2BF24A8352A000D21F6 = {
 			isa = PBXGroup;
 			children = (
 				F76BC2CA24A8352B000D21F6 /* DarkModeDemo */,
 				F76BC2C924A8352B000D21F6 /* Products */,
+				C3FEEB9BAFFC607B99E5F039 /* Pods */,
+				AB0FBEE836D621BD5095F748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +134,7 @@
 		F76BC2F524A872E2000D21F6 /* DarkModeAdapterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7AC355A24BDE54900D9F4C2 /* SubPage */,
 				F76BC2FF24A87913000D21F6 /* Setting */,
 				F76BC2FE24A8790C000D21F6 /* Home */,
 				F76BC2F924A872E8000D21F6 /* Extension */,
@@ -109,7 +148,6 @@
 			children = (
 				F76BC2F724A872E2000D21F6 /* TabBarController.swift */,
 				F741E46924AEC55D00560B1B /* NavigationController.swift */,
-				F76BC2FC24A878E8000D21F6 /* BaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -118,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				F76BC2FA24A872FD000D21F6 /* Color+DarkMode.swift */,
+				F7AC356A24BF4EBA00D9F4C2 /* AudioTool.swift */,
+				F7AC358A24BFE71200D9F4C2 /* InfoManager.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -126,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				F76BC30024A8792E000D21F6 /* HomeViewController.swift */,
+				F7AC356124BE960700D9F4C2 /* LessionIntroductionCell.swift */,
+				F7AC356324BE967100D9F4C2 /* LessionIntroductionCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,6 +180,25 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
+		F7AC355A24BDE54900D9F4C2 /* SubPage */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC355B24BDE55400D9F4C2 /* Lessions */,
+			);
+			path = SubPage;
+			sourceTree = "<group>";
+		};
+		F7AC355B24BDE55400D9F4C2 /* Lessions */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC355C24BDE58C00D9F4C2 /* LessionsController.swift */,
+				F7AC356524BEB24C00D9F4C2 /* LessionsListCell.swift */,
+				F7AC356C24BFD47300D9F4C2 /* LessionsListCell.xib */,
+				F7AC355F24BDF23400D9F4C2 /* Lessions.storyboard */,
+			);
+			path = Lessions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76BC2DC24A8352B000D21F6 /* Build configuration list for PBXNativeTarget "DarkModeDemo" */;
 			buildPhases = (
+				7C545C9D88B5EEFBD94A066E /* [CP] Check Pods Manifest.lock */,
 				F76BC2C424A8352B000D21F6 /* Sources */,
 				F76BC2C524A8352B000D21F6 /* Frameworks */,
 				F76BC2C624A8352B000D21F6 /* Resources */,
+				999676D7074D76E31A2913C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,27 +260,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AC356424BE967100D9F4C2 /* LessionIntroductionCell.xib in Resources */,
+				F7AC356D24BFD47300D9F4C2 /* LessionsListCell.xib in Resources */,
 				F76BC2EE24A87297000D21F6 /* Main.storyboard in Resources */,
 				F76BC2EC24A87297000D21F6 /* Assets.xcassets in Resources */,
+				F7AC356024BDF23400D9F4C2 /* Lessions.storyboard in Resources */,
 				F76BC2ED24A87297000D21F6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C545C9D88B5EEFBD94A066E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkModeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		999676D7074D76E31A2913C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76BC2C424A8352B000D21F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AC355E24BDEEAD00D9F4C2 /* LessionsController.swift in Sources */,
 				F76BC2FB24A872FD000D21F6 /* Color+DarkMode.swift in Sources */,
+				F7AC356224BE960700D9F4C2 /* LessionIntroductionCell.swift in Sources */,
 				F741E46A24AEC55D00560B1B /* NavigationController.swift in Sources */,
-				F76BC2FD24A878E8000D21F6 /* BaseViewController.swift in Sources */,
 				F76BC30324A8793A000D21F6 /* SettingViewController.swift in Sources */,
+				F7AC356624BEB24C00D9F4C2 /* LessionsListCell.swift in Sources */,
 				F76BC2F424A872B2000D21F6 /* SceneDelegate.swift in Sources */,
 				F76BC2F324A872B2000D21F6 /* AppDelegate.swift in Sources */,
 				F76BC30124A8792E000D21F6 /* HomeViewController.swift in Sources */,
 				F76BC2F824A872E2000D21F6 /* TabBarController.swift in Sources */,
+				F7AC356B24BF4EBA00D9F4C2 /* AudioTool.swift in Sources */,
+				F7AC358B24BFE71200D9F4C2 /* InfoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +471,7 @@
 		};
 		F76BC2DD24A8352B000D21F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD12026CFACC4482BFCC0890 /* Pods-DarkModeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +491,7 @@
 		};
 		F76BC2DE24A8352B000D21F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A08043DE06A077FDBEC9AF0 /* Pods-DarkModeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
