@@ -2,24 +2,50 @@ PODS:
   - Alamofire (4.9.1)
   - AlamofireImage (3.5.2):
     - Alamofire (~> 4.8)
+  - Dollar (9.0.0)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - MonkeyKing (1.16.0)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
   - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.9.0)
   - AlamofireImage (~> 3.5.2)
+  - Dollar
+  - Kingfisher
+  - MonkeyKing
+  - R.swift
   - SnapKit (~> 4.2.0)
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - Dollar
+    - Kingfisher
+    - MonkeyKing
+    - R.swift
+    - R.swift.Library
     - SnapKit
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Dollar: 2fc9bdeeb2d3ae1f251461803240d5c93829ee0c
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  MonkeyKing: dc5076dc206bf9e6eb427d618317eff1b44b0666
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 9262ad785e4ee615dfe82b566e18607e4f728e73
+PODFILE CHECKSUM: c8da0e6db6243bd8fd72e09e591accd1a137df9c
 
 COCOAPODS: 1.9.1

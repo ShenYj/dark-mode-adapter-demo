@@ -8,7 +8,11 @@ target 'DarkModeDemo' do
   pod 'SnapKit', '~> 4.2.0', :inhibit_warnings => true
   pod 'Alamofire', '~> 4.9.0'
   pod 'AlamofireImage', '~> 3.5.2'
-  
+  pod 'SwiftyJSON'
+  pod 'R.swift'
+  pod 'MonkeyKing'
+  pod 'Kingfisher'
+  pod 'Dollar'
   # Pods for DarkModeDemo
 
 end
